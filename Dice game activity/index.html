@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<div class="gameBox"> 
+    <h1 class="losingMessage" id="p1LosingMessage"></h1>
+    <h1 class="winningMessage" id="p1WinningMessage"></h1>
+   
+    <div class="diceDiv">
+        <img id="p1dice1" class="dice1" src="diceImages/one.png" alt="dice1">
+        <img id="p1dice2" class="dice2" src="diceImages/two.png" alt="dice2">
+        <img id="p1dice3" class="dice3" src="diceImages/three.png" alt="dice3">
+        <img id="p1dice4" class="dice4" src="diceImages/four.png" alt="dice4">
+        <img id="p1dice5" class="dice5" src="diceImages/five.png" alt="dice5">
+        <img id="p1dice6" class="dice6" src="diceImages/six.png" alt="dice6">
+    </div>
+
+    <p class="score" id="p1Score"></p>
+    <p>Player 1</p>
+    <button class="rollButton" id="p1RollButton"><b>Roll</b></button>
+    <button class="holdButton" id="p1HoldButton">HOLD</button>
+
+    <p class="beginMessage" id="p1beginMessage">Press Roll to begin!</p>
+</div>
+
+
+
+<div>
+
+    <div class="scoreCounterBox" > <p>First to 20 wins!</p> </div>
+
+    
+        <button class="resetButton" id="resetButton">NEW GAME</button> 
+
+
+
+        <div class="scoreCounterBox" >
+            
+    
+    <p id="p1ScoreCounter"> 0 </p>
+    <p>|</p>
+    <p id="p2ScoreCounter"> 0 </p>
+    </div>
+
+
+</div>
+
+
+
+<div class="gameBox">
+    <h1 class="losingMessage" id="p2LosingMessage"></h1>
+    <h1 class="winningMessage" id="p2WinningMessage"></h1>
+
+    <div class="diceDiv">
+        <img id="p2dice1" class="dice1" src="diceImages/one.png" alt="dice1">
+        <img id="p2dice2" class="dice2" src="diceImages/two.png" alt="dice2">
+        <img id="p2dice3" class="dice3" src="diceImages/three.png" alt="dice3">
+        <img id="p2dice4" class="dice4" src="diceImages/four.png" alt="dice4">
+        <img id="p2dice5" class="dice5" src="diceImages/five.png" alt="dice5">
+        <img id="p2dice6" class="dice6" src="diceImages/six.png" alt="dice6">
+    </div>
+
+    <p class="score" id="p2Score"></p>
+    <p>Player 2</p>
+    <button class="rollButton" id="p2RollButton"><b>Roll</b></button>
+    <button class="holdButton" id="p2HoldButton">HOLD</button>
+    <p class="beginMessage" id="p2beginMessage"></p>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

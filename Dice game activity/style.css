@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+*{font-family: 'Cherry Bomb One', cursive; 
+} 
+
+
+
+.scoreCounterBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+
+
+
+
+body{
+    display: flex;  
+    justify-content: space-around;
+      padding-top: 80px;
+      background-color: rgb(29, 92, 51);
+ 
+    
+
+}
+
+
+.losingMessage{
+    color: red;
+    position: fixed;
+}
+.winningMessage{
+    color: green;
+    position: fixed;
+}
+
+.beginMessage{
+    position: fixed;
+}
+
+
+.rollButton{
+    width: 200px;
+    height: 40px;
+    display: block;
+}
+
+.holdButton{
+    width: 200px;
+    height: 40px;
+    background-color:gold;
+}
+
+.resetButton{
+    width: 200px;
+height: 50px;
+margin-left: 20px;
+
+
+}
+
+.score{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+.gameBox{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border: solid black 3px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    background-color:rgb(22, 109, 22);
+    border-radius: 10%;
+
+ 
+}
+
+
+
+
+.dice1 {
+    display:none;
+    position: fixed;
+}
+
+.dice2{
+    display:none;
+    position: fixed;
+}
+
+.dice3 {
+    display:none;
+    position: fixed;
+}
+
+.dice4 {
+    display:none;
+    position: fixed;
+}
+
+.dice5 {
+    display:none;
+    position: fixed;
+}
+
+
+.dice6{
+    display:none;
+    position: fixed;
+}
+
+
+
+
+
+
+
+.diceDiv {
+    display: flex;
+    padding-bottom: 300px;
+    padding-right: 150px;
+    
+}
